@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+body{
+    background-color: rgb(248, 231, 203);
+    
+}
+.headere{
+    background-color: red;
+    color: aliceblue;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 30px;
+  
+    
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    flex-wrap: wrap;
+    
+}
+
+footer{
+    background-color: rgb(51, 48, 48);
+    padding: 40px;
+}
+
+
+
+
+
+
+.container{
+    border: 1px rgb(209, 196, 196) solid;
+    box-shadow: 1px 2px 5px rgb(255, 221, 221);
+    margin: 50px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 39px;
+}
+
+
+
+
+.card{
+    display: flex;
+    flex-direction: row;
+    border-radius: 39px;
+   
+}
+
+.card img{
+    width: 40%;
+    object-fit: cover;
+    
+}
+
+.card .contenter{
+    padding: 30px;
+}
+
+
+.contenter p{
+    margin: 26px;
+}
+
+.contenter h1{
+    margin: 30px;
+}
+
+
+.second_container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    
+}
+
+.food_card img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.food_card{
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    border: 1px rgb(209, 196, 196) solid;
+    box-shadow: 1px 2px 5px rgb(255, 221, 221);
+}
+
+
+.food_card p{
+    margin: 20px;
+    color: brown;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+#menu_til{
+    color: brown;
+    margin: 30px;
+}
